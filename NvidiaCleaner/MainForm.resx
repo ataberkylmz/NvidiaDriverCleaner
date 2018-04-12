@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="freeUpSpaceButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="freeUpSpaceButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="freeUpSpaceButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 57</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="freeUpSpaceButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="freeUpSpaceButton.Text" xml:space="preserve">
+    <value>Free Up Space!</value>
+  </data>
+  <data name="&gt;&gt;freeUpSpaceButton.Name" xml:space="preserve">
+    <value>freeUpSpaceButton</value>
+  </data>
+  <data name="&gt;&gt;freeUpSpaceButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freeUpSpaceButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;freeUpSpaceButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 30</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 248</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 149</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nvidia Driver Leftover Cleaner</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="textArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 191</value>
+  </data>
+  <data name="textArea.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textArea.Text" xml:space="preserve">
+    <value>This simple program deletes the old Nvidia display driver &amp;
+GeForce Experiance setups which are not needed anymore.
+
+================================================
+
+Free space gain may vary from computer to computer.
+Check settings for more detailed cleaning.
+
+This process is completely safe as those files are only used
+during the installation of the graphic driver.
+
+You can read further in the About part.</value>
+  </data>
+  <data name="&gt;&gt;textArea.Name" xml:space="preserve">
+    <value>textArea</value>
+  </data>
+  <data name="&gt;&gt;textArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textArea.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;textArea.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 236</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 405</value>
+  </data>
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabMain.Text" xml:space="preserve">
+    <value>Free Up Space</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cGenerateLog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cGenerateLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cGenerateLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 97</value>
+  </data>
+  <data name="cGenerateLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="cGenerateLog.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cGenerateLog.Text" xml:space="preserve">
+    <value>Generate Log File</value>
+  </data>
+  <data name="&gt;&gt;cGenerateLog.Name" xml:space="preserve">
+    <value>cGenerateLog</value>
+  </data>
+  <data name="&gt;&gt;cGenerateLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cGenerateLog.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;cGenerateLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="richTextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="richTextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 48</value>
+  </data>
+  <data name="richTextBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Deletes the old driver copies inside the windows folder. This method may cause trouble if there is no Nvidia driver running in the background as the method bruteforces the driver deletion.</value>
+  </data>
+  <data name="&gt;&gt;richTextBox4.Name" xml:space="preserve">
+    <value>richTextBox4</value>
+  </data>
+  <data name="&gt;&gt;richTextBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox4.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;richTextBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cWindowsDriver.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cWindowsDriver.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cWindowsDriver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cWindowsDriver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="cWindowsDriver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 17</value>
+  </data>
+  <data name="cWindowsDriver.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cWindowsDriver.Text" xml:space="preserve">
+    <value>Delete Windows Driver Backup</value>
+  </data>
+  <data name="&gt;&gt;cWindowsDriver.Name" xml:space="preserve">
+    <value>cWindowsDriver</value>
+  </data>
+  <data name="&gt;&gt;cWindowsDriver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cWindowsDriver.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;cWindowsDriver.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 267</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 135</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="richTextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 180</value>
+  </data>
+  <data name="richTextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 68</value>
+  </data>
+  <data name="richTextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Deletes the old downloaded driver setups under the System\Program Files\NVIDIA Corporation\Installer2 location.
+After deleting this, you cannot uninstal Geforce Experience properly. READ ABOUT FOR DETAILS AS IT BREAKS THE UNINSTALL MECHANISM.</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.Name" xml:space="preserve">
+    <value>richTextBox3</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;richTextBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
+  </data>
+  <data name="richTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 40</value>
+  </data>
+  <data name="richTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Deletes the old downloaded driver setups under the System\ProgramData\NVIDIA Corporation\Downloader location.</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.Name" xml:space="preserve">
+    <value>richTextBox2</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;richTextBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 40</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Deletes the old extracted driver setups under the System\Nvidia directory.</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cRepository.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cRepository.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cRepository.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 157</value>
+  </data>
+  <data name="cRepository.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 17</value>
+  </data>
+  <data name="cRepository.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cRepository.Text" xml:space="preserve">
+    <value>Delete Installation Repository*</value>
+  </data>
+  <data name="&gt;&gt;cRepository.Name" xml:space="preserve">
+    <value>cRepository</value>
+  </data>
+  <data name="&gt;&gt;cRepository.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cRepository.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;cRepository.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cDownloaded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cDownloaded.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cDownloaded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="cDownloaded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 17</value>
+  </data>
+  <data name="cDownloaded.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cDownloaded.Text" xml:space="preserve">
+    <value>Delete Downloaded Drivers and Logs</value>
+  </data>
+  <data name="&gt;&gt;cDownloaded.Name" xml:space="preserve">
+    <value>cDownloaded</value>
+  </data>
+  <data name="&gt;&gt;cDownloaded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cDownloaded.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;cDownloaded.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cExtracted.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cExtracted.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cExtracted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cExtracted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 17</value>
+  </data>
+  <data name="cExtracted.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cExtracted.Text" xml:space="preserve">
+    <value>Delete Extracted Drivers</value>
+  </data>
+  <data name="&gt;&gt;cExtracted.Name" xml:space="preserve">
+    <value>cExtracted</value>
+  </data>
+  <data name="&gt;&gt;cExtracted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cExtracted.Parent" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;cExtracted.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="basicSettingsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="basicSettingsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 255</value>
+  </data>
+  <data name="basicSettingsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="basicSettingsGroup.Text" xml:space="preserve">
+    <value>Basic Settings</value>
+  </data>
+  <data name="&gt;&gt;basicSettingsGroup.Name" xml:space="preserve">
+    <value>basicSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;basicSettingsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;basicSettingsGroup.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;basicSettingsGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 405</value>
+  </data>
+  <data name="tabSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Name" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabControl1.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 431</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>334, 433</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        K/8oKyt0KCsrVygrK/4oKyv9KCsrVCgrKwAoKysDKCsrACgrKwAAAAAAAAAAAAAAAAAAAAAAKCsrACgr
+        KwIoKytKKCsrUlQAAAICq2sAAKliIh69geZ92rf/luLG/5Djx/8flGypJyQmXigrKxQoKysAKCsrACgr
+        KzkoKyvzKCsr/ygrK9IoKyvIKCsr/ygrK/0oKytSKCsrOSgrK6YoKysrKCsrAAAAAAAAAAAAAAAAAAAA
+        AAAoKysAKCsrACcuLAAmMzEAAKtmNwCsZ38AqmNzFrt+uTrKmP80y5j/DsGF4gC+ezQXZUsAKCsrACgr
+        KwAoKysAKCsrOSgrK/MoKyv/KCsr/ygrK/8oKyv/KCsr/CgrK1EoKyt3KCsr/ygrK1woKysAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAALBsAACuajQKtXTfMsKL/03Jmf8tvoe4ALZ0eQC6eoYAuXk7J8pXABRu
+        TgAoKysAKCsrACgrKwAoKys5KCsr8ygrK/8oKyv/KCsr/ygrK/8oKyv8KCsrUSgrK3goKyv/KCsrXSgr
+        KwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQvn8ACbd2d1TPov+K3r//pebO/2HSqOUAq14gB6RuAAD/
+        ywAsHSQBKCwsASgrKwEoKysAKCsrACgrKzkoKyvzKCsr/ygrK/8oKyv/KCsr/ygrK/0oKytRKCsreCgr
+        K/8oKytdKCsrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAm9fgAFuXlcK8eR/mfXsf+h58//WdKn0QB4
+        SicoKSqCKCsrqSgrK6coKyumKCsrpygrK2koKysBKCsrOCgrK/MoKyv/KCsr/ygrK/8oKyv/KCsr/Sgr
+        K1EoKyt4KCsr/ygrK10oKysAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZ1AAC1cw8AunqQCL+D3w/A
+        hc4LwIFPKCYnHCgrK8koKyvwKCsr7igrK+4oKyv6KCsr9CgrK0soKys1KCsr8ygrK/8oKyv/KCsr/ygr
+        K/8oKyv9KCsrUSgrK3goKyv/KCsrXSgrKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt3cAALd3AACx
+        cQQAt3YdALRzFDXJmQA7ABYBKCsrGigrKyooKysqKCsrJygrK2AoKyv1KCsryigrK1UoKyvxKCsr/ygr
+        K/8oKyv/KCsr/ygrK/0oKytPKCsrdigrK/8oKytdKCsrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACr
+        bAAAtnYAALV1AAC3eAAAt3cAAL94ACsgJQAoKysAKCsrACgrKwAoKysAKCsrAygrK5MoKyv/KCsrxigr
+        K/QoKyv/KCsr/ygrK/8oKyv/KCsr/SgrK3MoKyuSKCsr/ygrK14oKysAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgrKwAoKysAKCsrHygr
+        K9AoKyv/KCsr/ygrK/8oKyv/KCsr/ygrK/8oKyv/KCsr9CgrK/coKyv6KCsrSygrKwAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCsrACgr
+        KwAoKysAKCsrUygrK/IoKyv/KCsr/ygrK/8oKyv/KCsr/ygrK/8oKyv/KCsr/ygrK7UoKysSKCsrAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKCsrACgrKwAoKysDKCsrXCgrK8EoKyvZKCor2CgqKtcoKyvZKCsr2igrK88oKyuPKCsrHigr
+        KwAoKysAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAKCsrACgrKwAoKysAKSkqDColKBcXaE8rEnpZNyBLPh8rIiYXKCsrEigr
+        KwEoKysAKCsrACgrKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCsrAAyRZgAUYkkAAa52TAGpc8kBqXPfAbB4nADF
+        hBcSe1kAKCoqACgrKwAoKysAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqpzAAGqdBkCpXDTAqNv/wKj
+        b/8CpXH/AbF4ewGibgAEsHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACpnEAAqZxLQKj
+        b+0Co2//AqNv/wKjb/8BrXagAP//AAOzegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKn
+        cQACp3IQAqRwugKjb/8Co2//AqZx+QGxeF4Cp3IAArl+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAqBtAAKkcAACp3EpAqZxkwKncq8BrXZlAL+BCAC6fgACuH0AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAABrXUAA5tqAAKlcAAA//8AAMeGBAKfbQAAun4AALl9AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu38AAbV7AAG2fAAAuX0AAL+BAAC+gAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA8AGAH/ABgB/wAYAf8ACAH+AAgB/gAIAf4ACAH+AAgB/gAAAf4AAAH8AA
+        AB/AAAADwAAAA8AAAAPAAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD//wAA//8AAP//gAD//8AA///
+        gAf//8Af///AH///wB///8Af///AP///4H8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nvidia Cleaner</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
