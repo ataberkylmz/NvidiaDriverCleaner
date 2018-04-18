@@ -229,7 +229,6 @@ namespace NvidiaCleaner
                 else
                 {
                     textArea.Text += path[i] + @" NOT FOUND! PASSING... " + Environment.NewLine;
-                    progressBar.Value += GetBarPercentage();
                 }
                 textArea.Text += @"Total " + deletedTotal + @" MB Deleted in " + path[i] + Environment.NewLine;
                 textArea.Text += @"-----Unneccessary Logs "+(i+1)+@" End-----" + Environment.NewLine + Environment.NewLine;
